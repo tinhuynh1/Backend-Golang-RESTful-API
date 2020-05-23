@@ -5,7 +5,7 @@ import (
 	"DACN-GithubTrending/model"
 	req "DACN-GithubTrending/model/req"
 	"DACN-GithubTrending/repository"
-	securiry "DACN-GithubTrending/security"
+	"DACN-GithubTrending/security"
 	"net/http"
 
 	validator "github.com/go-playground/validator/v10"
@@ -48,7 +48,7 @@ func (u *UserHandler) HandleSignIn(c echo.Context) error {
 		})
 	}
 	//check password
-	isTheSame := securiry.ComparePasswords(user.Password, []byte(req.Password))
+	isTheSame := security.ComparePasswords(user.Password, []byte(req.Password))
 	if !isTheSame {
 		return c.JSON(http.StatusUnauthorized, model.Response{
 			StatusCode: http.StatusUnauthorized,
@@ -95,9 +95,9 @@ func (u *UserHandler) HandleSignUp(c echo.Context) error {
 			Data:       nil,
 		})
 	}
-	hash := securiry.HashAndSalt([]byte(req.Password))
+	hash := security.HashAndSalt([]byte(req.Password))
 	role := model.MEMBER.String()
-	userId, err := uuid.NewUUID()
+	userID, err := uuid.NewUUID()
 	if err != nil {
 		log.Error(err.Error())
 		return c.JSON(http.StatusForbidden, model.Response{
@@ -107,7 +107,7 @@ func (u *UserHandler) HandleSignUp(c echo.Context) error {
 		})
 	}
 	user := model.User{
-		UserId:   userId.String(),
+		UserId:   userID.String(),
 		FullName: req.FullName,
 		Email:    req.Email,
 		Password: hash,
@@ -123,7 +123,7 @@ func (u *UserHandler) HandleSignUp(c echo.Context) error {
 		})
 	}
 	//gen token
-	token, err := securiry.GenToken(user)
+	token, err := security.GenToken(user)
 	if err != nil {
 		log.Error(err)
 		return c.JSON(http.StatusInternalServerError, model.Response{
