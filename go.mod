@@ -3,6 +3,7 @@ module DACN-GithubTrending
 go 1.13
 
 require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/fastly/go-utils v0.0.0-20180712184237-d95a45783239 // indirect
 	github.com/go-playground/validator v9.31.0+incompatible // indirect
 	github.com/go-playground/validator/v10 v10.2.0
@@ -21,6 +22,6 @@ require (
 	github.com/sirupsen/logrus v1.5.0
 	github.com/sqs/goreturns v0.0.0-20181028201513-538ac6014518 // indirect
 	github.com/tebeka/strftime v0.1.4 // indirect
-	golang.org/x/crypto v0.0.0-20200221231518-2aa609cf4a9d
+	golang.org/x/crypto v0.0.0-20200510223506-06a226fb4e37
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 )
