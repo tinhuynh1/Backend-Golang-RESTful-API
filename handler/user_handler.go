@@ -8,7 +8,6 @@ import (
 	"DACN-GithubTrending/security"
 	"net/http"
 
-	validator "github.com/go-playground/validator/v10"
 	uuid "github.com/google/uuid"
 	"github.com/labstack/echo"
 )
@@ -30,8 +29,7 @@ func (u *UserHandler) HandleSignIn(c echo.Context) error {
 			Data:       nil,
 		})
 	}
-	validate := validator.New()
-	if err := validate.Struct(req); err != nil {
+	if err := c.Validate(req); err != nil {
 		log.Error(err.Error())
 		return c.JSON(http.StatusBadRequest, model.Response{
 			StatusCode: http.StatusBadRequest,
@@ -86,8 +84,7 @@ func (u *UserHandler) HandleSignUp(c echo.Context) error {
 			Data:       nil,
 		})
 	}
-	validate := validator.New()
-	if err := validate.Struct(req); err != nil {
+	if err := c.Validate(req); err != nil {
 		log.Error(err.Error())
 		return c.JSON(http.StatusBadRequest, model.Response{
 			StatusCode: http.StatusBadRequest,
@@ -138,4 +135,8 @@ func (u *UserHandler) HandleSignUp(c echo.Context) error {
 		Message:    "OK",
 		Data:       user,
 	})
+}
+
+func (u *UserHandler) Profile(c echo.Context) error {
+	return nil
 }

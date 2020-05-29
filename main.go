@@ -3,6 +3,7 @@ package main
 import (
 	"DACN-GithubTrending/db"
 	"DACN-GithubTrending/handler"
+	"DACN-GithubTrending/helper"
 	log "DACN-GithubTrending/log"
 	"DACN-GithubTrending/repository/repo_impl"
 	"DACN-GithubTrending/router"
@@ -30,7 +31,10 @@ func main() {
 
 	e := echo.New()
 
-	 
+	structValidator := helper.NewStructValidator()
+	structValidator.RegisterValidate()
+
+	e.Validator = structValidator
 	userHandler := handler.UserHandler{
 		UserRepo: repo_impl.NewUserRepo(sql),
 	}
