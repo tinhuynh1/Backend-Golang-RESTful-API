@@ -23,5 +23,5 @@ func GenToken(user model.User) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	return result, err
+	return result, nil
 }

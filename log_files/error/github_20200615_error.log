@@ -1,0 +1,50 @@
+time="2020-06-15T11:37:54.9321746+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.0721778+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.0981879+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.1191733+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.1191733+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.1231736+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.1241718+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.1191733+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.1241718+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.1461742+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.1511733+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.1521739+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.1511733+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.1801747+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.1801747+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.1861772+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.1801747+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.189173+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.189173+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.189173+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.2261872+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.2261872+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.2561731+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.2581726+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.2541739+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.2711723+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.2711723+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.2891795+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.2891795+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.3071708+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.3041736+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.3041736+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.3191715+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.336172+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.336172+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.336172+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.3381731+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.3391741+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.3391741+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.3721753+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.3851726+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.3851726+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.3871734+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.3851726+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.3901723+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.3901723+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.4031718+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.3901723+07:00" level=error msg="missing destination name abc in *model.GithubRepo" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/repository/repo_impl/github_repo_impl.go" line=35
+time="2020-06-15T11:37:55.4051754+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110
+time="2020-06-15T11:37:55.4051754+07:00" level=error msg="Cập nhật thông tin Repo thất bại" file="D:/DACN-GithubTrending/Backend-Golang-RESTful-API/helper/job_repo_crawl.go" line=110

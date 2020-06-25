@@ -1,5 +1,0 @@
-time="2020-04-22T14:37:36.751586+07:00" level=error msg="Co loi xay ra roi nha" file="D:/DACN-GithubTrending/main.go" line=24
-time="2020-04-22T14:44:23.4036356+07:00" level=error msg="Co loi xay ra roi nha" file="D:/DACN-GithubTrending/main.go" line=27
-time="2020-04-22T14:45:37.8921236+07:00" level=error msg="Co loi xay ra roi nha" file="D:/DACN-GithubTrending/main.go" line=29
-time="2020-04-22T14:50:47.0425396+07:00" level=error msg="Co loi xay ra roi nha" file="D:/DACN-GithubTrending/main.go" line=35
-time="2020-04-22T14:52:21.8688143+07:00" level=error msg="sql: no rows in result set" file="D:/DACN-GithubTrending/main.go" line=33

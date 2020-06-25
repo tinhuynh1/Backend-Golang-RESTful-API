@@ -1,4 +1,0 @@
-time="2020-04-24T22:28:56.1158035+07:00" level=error msg="code=415, message=Unsupported Media Type" file="D:/DACN-GithubTrending/handler/user_handler.go" line=33
-time="2020-04-24T22:36:47.1918813+07:00" level=error msg="code=415, message=Unsupported Media Type" file="D:/DACN-GithubTrending/handler/user_handler.go" line=33
-time="2020-04-24T23:06:14.237434+07:00" level=error msg="code=415, message=Unsupported Media Type" file="D:/DACN-GithubTrending/handler/user_handler.go" line=33
-time="2020-04-24T23:23:04.2470073+07:00" level=error msg="code=415, message=Unsupported Media Type" file="D:/DACN-GithubTrending/handler/user_handler.go" line=33
