@@ -20,12 +20,12 @@ func (api *API) SetupRouter() {
 
 	//profile
 	user := api.Echo.Group("/user", middleware.JWTMiddleware())
-	user.GET("/user/profile", api.UserHandler.Profile)
-	user.PUT("/user/profile/update", api.UserHandler.UpdateProfile)
+	user.GET("/profile", api.UserHandler.Profile)
+	user.PUT("/profile/update", api.UserHandler.UpdateProfile)
 
 	// github repo
-	github := api.Echo.Group("/github", middleware.JWTMiddleware())
-	github.GET("/trending", api.RepoHandler.RepoTrending)
+	github := api.Echo.Group("/github")
+	github.GET("/trending", api.RepoHandler.RepoTrending, middleware.JWTMiddleware())
 
 	// bookmark
 	bookmark := api.Echo.Group("/bookmark", middleware.JWTMiddleware())

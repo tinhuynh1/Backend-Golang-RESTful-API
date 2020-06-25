@@ -1,14 +1,17 @@
 package middleware
+
 import (
-	"github.com/labstack/echo/middleware"
-	"github.com/labstack/echo"
 	"DACN-GithubTrending/model"
 	"DACN-GithubTrending/security"
+
+	"github.com/labstack/echo"
+	"github.com/labstack/echo/middleware"
 )
-func JWTMiddleware() echo.MiddlewareFunc{
+
+func JWTMiddleware() echo.MiddlewareFunc {
 	config := middleware.JWTConfig{
-		Claims: &model.JwtCustomClaims{},
-		SigningKey: security.SECRET_KEY,	
+		Claims:     &model.JwtCustomClaims{},
+		SigningKey: []byte(security.SECRET_KEY),
 	}
 	return middleware.JWTWithConfig(config)
 }
