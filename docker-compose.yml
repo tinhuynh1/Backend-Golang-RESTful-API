@@ -1,12 +1,51 @@
-version: '2'
+version: '3'
+
+networks: 
+  dacn:
 
 services:
   web-service:
-    container_name: web-service
-    build: .
-    image: web-service:1.0
+    build: 
+      dockerfile: backend.dockerfile
+      context: .
     ports:
       - "3000:3000"
     environment:
       - APP_NAME=github
+    depends_on: 
+      - database
+    networks: 
+      - dacn
+
+  database:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=postgres  
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=golang_project
+      - DATABASE_HOST=database 
+    ports:
+      - '5432:5432'
+    volumes:
+      - dbdata_postgres:/var/lib/postgresql/data
+    networks:
+      - dacn
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: live@admin.com
+      PGADMIN_DEFAULT_PASSWORD: password
+    depends_on:
+      - database
+    ports:
+      - "5050:80"
+    networks:
+      - dacn
+    restart: unless-stopped
+
+volumes:
+  dbdata_postgres:
+
+
       
